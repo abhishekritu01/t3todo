@@ -27,3 +27,19 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
 ## How do I deploy this?
 
 Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone <repository-url>
+cd <project-directory>
+npm install
+
+
+DATABASE_URL=<your-database-url>
+TURSO_AUTH_TOKEN=<your-turso-auth-token>
+
+npm run dev
+
