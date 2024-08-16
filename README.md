@@ -39,6 +39,8 @@ npm install
 
 
 DATABASE_URL=<your-database-url>
+
+
 TURSO_AUTH_TOKEN=<your-turso-auth-token>
 
 npm run dev
